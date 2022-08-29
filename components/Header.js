@@ -6,7 +6,10 @@ export const Header = () => {
     <header className={styles.header}>
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
-      <Link href="/example-with-db">Example with DB</Link>
+      <Link href="/frontend-team-from-db">Frontend team from DB</Link>
+      <Link href="/frontend-team-from-api">
+        Frontend team from API
+      </Link>
     </header>
   );
 };
